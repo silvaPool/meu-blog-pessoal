@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import Seo from '../components/seo'
 // import { Link } from 'gatsby'
 
 const AboutPage = () => {
@@ -16,6 +17,6 @@ const AboutPage = () => {
     )
 }
 
-export const Head = () => <title>Sobre mim</title>
+export const Head = () => <Seo title="Sobre mim" />
 
 export default AboutPage;
