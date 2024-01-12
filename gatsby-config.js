@@ -9,6 +9,7 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-material-ui",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -17,5 +18,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-mdx",
+  
   ],
 };

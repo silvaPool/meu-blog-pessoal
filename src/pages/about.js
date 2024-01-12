@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
+import { Typography } from '@mui/material'
 // import { Link } from 'gatsby'
 
 const AboutPage = () => {
@@ -12,7 +13,9 @@ const AboutPage = () => {
         // </main>
 
         <Layout pageTitle="Sobre mim">
-            <p>Sou arqueólogo</p>
+          <Typography>
+                Sou um estudante de autodidata de tecnologia apaixonado por arquelogia!
+          </Typography>
         </Layout>
     )
 }
